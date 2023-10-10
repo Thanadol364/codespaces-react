@@ -1,0 +1,77 @@
+/* Bmi.css */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bmi-result {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style for different BMI results */
+  h1.Underweight {
+    color: #ff5733;
+  }
+  
+  h1.Normal {
+    color: #2ecc71;
+  }
+  
+  h1.Overweight {
+    color: #e74c3c;
+  }
+  
